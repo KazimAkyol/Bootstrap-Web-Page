@@ -16,3 +16,18 @@ nav a:hover{
     color: purple;
     height: 100vh;
 }
+
+.circle{
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color: white;
+}
+
+.circle i{
+    position: relative;
+    top: 35px;
+}
