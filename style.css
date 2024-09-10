@@ -1,2 +1,18 @@
 
 
+nav a{
+    color: white !important;
+}
+
+nav a:hover{
+    opacity: .5;
+}
+
+.menu{
+    background: url(./img/banner.jpeg);
+    background-size: cover;
+    padding-top: 30%;
+    padding-bottom: 10%;
+    color: purple;
+    height: 100vh;
+}
