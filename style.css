@@ -45,3 +45,9 @@ nav a:hover{
     height: 100%;
     object-fit: cover;
 }
+
+#foto{
+    background: url(./img/map.jpeg);
+    background-size: cover;
+    background-position: center;
+}
