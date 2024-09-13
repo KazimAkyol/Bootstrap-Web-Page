@@ -1,22 +1,22 @@
 
 
+*{
+    border: 1px solid red;
+}
 nav a{
     color: white !important;
 }
-
 nav a:hover{
-    opacity: .5;
+    opacity: 0.5;
 }
-
-.menu{
-    background: url(./img/banner.jpeg);
+.banner{
+    background: url(./images/banner.jpeg);
     background-size: cover;
-    padding-top: 30%;
-    padding-bottom: 10%;
+    padding-top: 50%;
+    padding-bottom: 30%;
     color: purple;
     height: 100vh;
 }
-
 .circle{
     display: inline-block;
     background-color: red;
@@ -26,12 +26,10 @@ nav a:hover{
     margin: auto;
     color: white;
 }
-
 .circle i{
     position: relative;
-    top: 35px;
+    top: 30px;
 }
-
 .img-wrapper{
     width: 200px;
     height: 200px;
@@ -39,15 +37,13 @@ nav a:hover{
     overflow: hidden;
     border: 5px solid gray;
 }
-
 .img-wrapper img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 #foto{
-    background: url(./img/map.jpeg);
+    background-image: url(./images/back.jpg);
     background-size: cover;
     background-position: center;
 }
